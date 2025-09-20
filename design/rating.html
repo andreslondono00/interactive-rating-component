@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../design/css/style.css">
+    <title>Frontend Mentor | Interactive rating component</title>
+
+</head>
+
+<body>
+    <main>
+        <div id="main_container" class="main_container">
+
+            <div class="icon_star"><img src="../images/icon-star.svg" alt="icon_star"></div>
+
+            <h1 class="title">How did we do?</h1>
+            <p class="paragraph">Please let us know how we did with your support request. All feedback is appreciated
+                to help us improve our offering!</p>
+
+            <div role="radiogroup" id="rate_list_button" class="rate_list_button">
+                <button role="radio" aria-checked="false" class="rate_button">1</button>
+                <button role="radio" aria-checked="false" class="rate_button">2</button>
+                <button role="radio" aria-checked="true" class="rate_button active">3</button>
+                <button role="radio" aria-checked="false" class="rate_button">4</button>
+                <button role="radio" aria-checked="false" class="rate_button">5</button>
+            </div>
+
+            <button id="submit" class="submit" aria-label="Submit Rating" onclick="onSubmitClick()">SUBMIT</button>
+
+        </div>
+
+        <div id="rating_container" class="rating_container">
+
+            <div class="illustration"><img src="../images/illustration-thank-you.svg" alt="Illustration Thank You">
+            </div>
+
+            <div class="selected_number">
+                <p>You selected out <span id="selected_rate"></span> of 5</p>
+            </div>
+
+            <h1 class="thank_you_title">Thank you!</h1>
+
+            <p class="paragraph_2">We appreciate you taking the time to give a rating. If you ever need more support,
+                don’t hesitate to get in touch!</p>
+        </div>
+
+    </main>
+
+    <div class="attribution">
+        Challenge by <a aria-label="Interactive Rating Component"
+            href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI"
+            target="_blank">Frontend Mentor</a>
+        Coded by <a aria-label="Github" href="https://github.com/andreslondono00/interactive-rating-component">Andrés
+            Londoño</a>
+    </div>
+
+    <script type="text/javascript" src="./js/rating.js"></script>
+</body>
+
+</html>

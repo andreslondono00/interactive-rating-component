@@ -1,0 +1,57 @@
+@media (max-width:768px) {
+    .main_container {
+        width: 345px;
+        height: 375px;
+        padding: 30px;
+    }
+
+    .icon_star {
+        width: 40px;
+        height: 40px;
+    }
+
+    .title {
+        margin-top: 20px;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .paragraph {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .rate_list_button button {
+        width: 45px;
+        height: 45px;
+    }
+
+    .rating_container {
+        width: 345px;
+        height: 375px;
+        padding: 20px;
+        display: none;
+    }
+
+    .selected_number {
+        height: 10%;
+        width: 60%;
+    }
+
+    .selected_number p {
+        font-size: 14px;
+        align-self: center;
+    }
+
+    .thank_you_title {
+        font-size: 24px;
+    }
+
+    .paragraph_2 {
+        font-size: 14px;
+    }
+
+    .attribution {
+        display: none;
+    }
+}
